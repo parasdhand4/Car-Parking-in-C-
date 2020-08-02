@@ -1,0 +1,27 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+int main ()
+{
+int l,u,x,i;
+
+printf("enter 2 numbers ");       // like from 1 to 100
+scanf("%d %d",&l ,&u);
+
+for(x=l+1;x<=u-1;x++)              // it will cheak from 2 to 99
+{
+    for (i=2;i<x;i++)              
+    {
+        if (x%i==0)           // if for example 10 % 2 =0 and the reminder is 0 then its not a prime number 
+       
+        break;
+        
+    }
+    
+    if (i==x)                
+    {
+        printf("%d \n",x);
+    }
+}
+return 0;
+}
