@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()                     // this will print same numbers everytime code is executed .
+{
+    int x,r;
+    for(x=1;x<=5;x++)
+    {
+    r=rand() % 10;                // to print random number from 0 to 9 
+    
+    printf("%d \n",r);
+  }
+  return 0;
+}
