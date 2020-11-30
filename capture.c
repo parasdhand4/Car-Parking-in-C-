@@ -1,47 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@parasdhand4 
-derekmolloy
-/
-exploringBB
-87
-383394
-Code
-Issues
-10
-Pull requests
-8
-Actions
-Projects
-Wiki
-Security
-Insights
-exploringBB/chp14/v4l2/capture.c
-@derekmolloy
-derekmolloy moving folders
-Latest commit 466ff40 on Sep 4, 2018
- History
- 1 contributor
-680 lines (543 sloc)  19.5 KB
-  
-/*
- *  V4L2 video capture example, modified by Derek Molloy for the Logitech C920 camera
- *  Modifications, added the -F mode for H264 capture and associated help detail
- *  www.derekmolloy.ie
- *
- *  V4L2 video capture example
- *
- *  This program can be used and distributed without restrictions.
- *
- *      This program is provided with the V4L2 API
- * see http://linuxtv.org/docs.php for more information
- */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -710,15 +666,3 @@ int main(int argc, char **argv)
         fprintf(stderr, "\n");
         return 0;
 }
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
